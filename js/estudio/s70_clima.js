@@ -106,9 +106,9 @@
       .sx-cl-notes{width:100%;min-height:130px;box-sizing:border-box;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
     </style>
 
-    ${E.note(`<p style="margin:.3em 0"><b>Esta sección se basa en la guía de estudio del profe, dos lecturas (BloombergNEF sobre ISSB y Estimating Climate Cost) y fuentes públicas.</b> El tema se vio con una invitada el lunes 2-nov-2026 y esa clase <b>no está grabada ni hay diapositivas en la carpeta</b>. Te toca completar con tus apuntes de esa clase; si la invitada dijo algo distinto, gana lo que dijo ella.</p>
-      <p style="margin:.3em 0">El profe dijo el 28-oct que en este tema no hay caso y que hay un video que tienen que ver. <b>Ese video no lo tenemos.</b></p>
-      <p style="margin:.3em 0"><b>Lecturas:</b> ✅ "Estimating Climate Cost" ya está integrada, con el texto real que conseguiste (${E.link('clima/ecc', 'ir a la ficha')}). ⚠️ "Who Killed ESG" sigue sin identificarse: pregúntale hoy al profe. Sus dos candidatos, y la hipótesis sobre el video, siguen <b>sin confirmar</b>.</p>`, '⚠️ Lee esto primero: clase sin grabar')}
+    ${E.note(`<p style="margin:.3em 0"><b>Esta sección se basa en la guía de estudio del profe, dos lecturas (BloombergNEF sobre ISSB y Estimating Climate Cost) y fuentes públicas.</b> El tema se vio con una invitada el lunes 2-nov-2026 y esa clase <b>no está incluida en esta guía</b>. Complétala con tus apuntes; si la invitada dijo algo distinto, gana lo que dijo ella.</p>
+      <p style="margin:.3em 0">El profe dijo el 28-oct que en este tema no hay caso y que hay un video que tienen que ver. <b>Ese video no está incluido aquí.</b></p>
+      <p style="margin:.3em 0"><b>Lecturas:</b> ✅ "Estimating Climate Cost" ya está integrada, a partir del texto de la lectura (${E.link('clima/ecc', 'ir a la ficha')}). ⚠️ "Who Killed ESG" sigue sin identificarse: confírmala con el profe. Sus dos candidatos, y la hipótesis sobre el video, siguen <b>sin confirmar</b>.</p>`, '⚠️ Lee esto primero: clase sin grabar')}
     ${E.reveal('📝 Tus apuntes de la clase con la invitada (se guardan en este navegador)', `
       <p class="small">Lo que más vale capturar: ¿qué marco usó? ¿qué ejemplos dio? ¿mencionó México, CNBV, Pemex o aseguradoras? ¿cuál es su mensaje en una frase? ¿qué video es el del profe?</p>
       <textarea class="sx-cl-notes" id="clNotes" placeholder="Escribe aquí lo que dijo la invitada…"></textarea>`)}
@@ -152,7 +152,7 @@
           ['<b>Stern</b> (2006)', '0.1% + 1 × 1.3%', '≈1.4%', 'Ética: casi no cuenta menos una generación futura', '≈$85/t'],
           ['<b>Nordhaus</b> (DICE)', '1.5% + 2 × 1.4%*', '≈4.3%', 'Mercado: r debe parecerse al rendimiento del capital', '$31/t (2017)'],
         ], { head: ['Quién', 'ρ + η·g', 'r', 'Argumento', 'SCC']})}
-        <p class="small muted">*Reconstrucción para el pizarrón: DICE usa g variable y parámetros distintos por versión. Fuente pública; no es de tu carpeta.</p>
+        <p class="small muted">*Reconstrucción para el pizarrón: DICE usa g variable y parámetros distintos por versión. Fuente pública; no es lectura del curso.</p>
         ${E.kid('¿Pagarías $100 hoy para evitar un daño de $1,000 a tus tataranietos? Si crees que ellos cuentan igual que tú, sí. Si crees que serán muy ricos o que tus $100 invertidos rendirán más, quizá no. Esa es toda la pelea.')}
       </div><div>
         ${E.fig(figScc, 'Calculado: 100/1.014¹⁰⁰ = 24.9 y 100/1.043¹⁰⁰ = 1.5.')}
@@ -257,7 +257,7 @@
     ${E.tip('Sobre este último tema: <q>no hay un caso</q>. Dijo que hay un video que tienen que ver. La transcripción de esa parte es confusa, así que confirma en Canvas cuál es.', 'Clase 28-oct ≈02:45')}
 
     ${E.concept({ id: 'bnef', title: '📄 "Mother of All Sustainability Reporting Standards Unveiled" (BNEF, 2023)', html: `
-      ${E.note('✅ <b>En tu carpeta.</b> Helen Dewhurst, BloombergNEF, 10-jul-2023.', 'Fuente')}
+      ${E.note('✅ <b>Lectura del curso.</b> Helen Dewhurst, BloombergNEF, 10-jul-2023.', 'Fuente')}
       ${E.table([
         ['<b>De qué trata</b>', 'ISSB publica NIIF S1 y S2 y sostenibilidad pasa de imperativo moral a riesgo de negocio.'],
         ['<b>Actores y decisión</b>', 'Empresas, inversionistas y reguladores: ¿un estándar común o seguir con marcos que se enciman?'],
@@ -267,8 +267,8 @@
         ['<b>Lección</b>', 'Medir es el primer paso: <q>You can\'t manage what you can\'t measure</q>.'],
       ])}` })}
 
-    ${E.concept({ id: 'wke', title: '🕵️ "Who Killed ESG" — ⚠️ no está en tu carpeta', html: `
-      ${E.note('No identifiqué la lectura exacta; pregúntale hoy al profe. Hay dos candidatos públicos, <b>sin confirmar</b>: el corto del Financial Times <a href="https://www.the180i.com/who-killed-the-esg-party-a-short-film-by-the-financial-times/" target="_blank" rel="noopener"><i>Who Killed the ESG Party?</i></a> (2024) y la opinión de Kossovsky <a href="https://www.directorsandboards.com/board-issues/esg/opinion-what-killed-esg/" target="_blank" rel="noopener"><i>What Killed ESG?</i></a>. <b>Hipótesis mía:</b> el corto del FT podría ser también el "video" del que habló el profe. Revísalo en Canvas.', 'Resumen de fuente pública')}
+    ${E.concept({ id: 'wke', title: '🕵️ "Who Killed ESG" — ⚠️ sin identificar', html: `
+      ${E.note('No se identificó la lectura exacta; confírmala con el profe. Hay dos candidatos públicos, <b>sin confirmar</b>: el corto del Financial Times <a href="https://www.the180i.com/who-killed-the-esg-party-a-short-film-by-the-financial-times/" target="_blank" rel="noopener"><i>Who Killed the ESG Party?</i></a> (2024) y la opinión de Kossovsky <a href="https://www.directorsandboards.com/board-issues/esg/opinion-what-killed-esg/" target="_blank" rel="noopener"><i>What Killed ESG?</i></a>. <b>Hipótesis mía:</b> el corto del FT podría ser también el "video" del que habló el profe. Revísalo en Canvas.', 'Resumen de fuente pública')}
       ${E.table([
         ['🏛️ <b>Política</b>', 'Reacción conservadora en EUA; presión antimonopolio sobre alianzas net zero.', 'Salidas de bancos y cierre de NZBA (oct-2025).'],
         ['📉 <b>Rendimiento</b>', 'Peor desempeño, en parte por tasas: activos cuyo valor está lejos en el tiempo sufren más.', 'Misma lógica del Lab 1 y de los bonos de SVB (mi lectura).'],
@@ -278,7 +278,7 @@
     ` })}
 
     ${E.concept({ id: 'ecc', title: '🧮 "Estimating Climate Cost": por qué toda estimación tendrá fallas', html: `
-      ${E.note('✅ <b>Texto que pasaste por chat.</b> Título real: "Why any estimate of the cost of climate change will be flawed". El texto no trae medio ni fecha. Resumen con mis palabras.', 'Fuente')}
+      ${E.note('✅ <b>Lectura del curso.</b> Título real: "Why any estimate of the cost of climate change will be flawed". El texto no trae medio ni fecha. Resumen con palabras propias.', 'Fuente')}
       ${E.key('No hay dos planetas para comparar, así que <b>todo método de estimar el daño climático falla en algo</b>. Aun así, todos apuntan a costos muy superiores a los que imaginó Nordhaus. Incierto no significa pequeño.', 'La tesis')}
       <div class="g2">
         <div class="card2"><h4>1991: tierra desconocida</h4><p class="small">La <b>función de daños</b> traduce grados extra en daño económico. Nordhaus llamó a ese terreno <i>terra incognita</i>, y su cifra, 1–2% del PIB con 3 °C, era sólo una corazonada informada.</p></div>
@@ -313,7 +313,7 @@
 
     <h2>Fuentes públicas usadas</h2>
     ${E.reveal('Ver lista', `<ul class="small">
-      <li><b>Lecturas del curso:</b> Dewhurst, BloombergNEF (2023), en tu carpeta · "Why any estimate of the cost of climate change will be flawed" (lectura "Estimating Climate Cost"), texto que pasaste por chat.</li>
+      <li><b>Lecturas del curso:</b> Dewhurst, BloombergNEF (2023) · "Why any estimate of the cost of climate change will be flawed" (lectura "Estimating Climate Cost").</li>
       <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5321009" target="_blank" rel="noopener">Nordhaus (2017), PNAS</a> · <a href="https://www.eenews.net/articles/epa-floats-sharply-increased-social-cost-of-carbon/" target="_blank" rel="noopener">E&amp;E News: EPA $120/$190/$340</a> · <a href="https://rff.org/news/media-highlights/barons-the-damage-from-carbon-is-more-costly-than-we-thought" target="_blank" rel="noopener">RFF: Rennert et al.</a> · <a href="https://preventionweb.net/quick/86137" target="_blank" rel="noopener">Bilal y Känzig</a> · <a href="https://impactlab.org/?p=1441" target="_blank" rel="noopener">Greenstone, testimonio</a></li>
       <li><a href="https://eelp.law.harvard.edu/tracker/the-social-cost-of-carbon/" target="_blank" rel="noopener">Harvard EELP: seguimiento del SCC</a> · <a href="https://www.jonesday.com/en/insights/2026/02/epa-finalizes-repeal-of-greenhouse-gas-endangerment-finding" target="_blank" rel="noopener">Jones Day: <i>endangerment finding</i></a> · <a href="https://www.esgtoday.com/?p=21507" target="_blank" rel="noopener">ESG Today: NZBA</a></li>
       <li><a href="https://www.iasplus.com/en/news/2025/12/ghg-emissions-amendments" target="_blank" rel="noopener">IAS Plus: enmiendas a NIIF S2</a> · <a href="https://asg.cnbv.gob.mx/sites/default/files/2026-03/documento_de_apoyo_para_la_elaboracion_del_informe_de_sostenibilidad_version_final_marzo_2026_vf.pdf" target="_blank" rel="noopener">CNBV: documento de apoyo (mar-2026)</a> · <a href="https://www.spglobal.com/sustainable1/en/insights/research-reports/issb-q3-2026" target="_blank" rel="noopener">S&amp;P Global: adopción de ISSB</a></li>

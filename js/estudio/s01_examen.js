@@ -55,24 +55,24 @@
         <div class="card2"><h4>⏱️ El tiempo es parte de la prueba</h4><p class="small">El profe puso el tiempo justo a propósito para evitar que se copie. Prefirió que la respuesta sea menos pulida. Traduce: escribe lo esencial, no busques la redacción perfecta.</p></div>
         <div class="card2"><h4>🚫 No hay regreso</h4><p class="small">Una vez que contestas, no puedes volver. No marques para después: decide y avanza. Si dudas en una de opción múltiple (2 pts), no le dediques el tiempo de un ensayo (hasta 17.5 pts).</p></div>
         <div class="card2"><h4>✍️ Escribe en forma de esqueleto si vas tarde</h4><p class="small">Una lista de ideas con herramientas y mecanismos vale más que una página en blanco. Lo que no alcanzaste a contestar, dijo, ya no te lo puede calificar.</p></div>
-        <div class="card2"><h4>📵 Logística</h4><p class="small">El profe no va a estar: van a cuidar Paulina y Fernando (nombres según la transcripción automática). Los celulares se guardan. Lleva tu computadora personal con LockDown Browser probado.</p></div>
+        <div class="card2"><h4>📵 Logística</h4><p class="small">El profe no va a estar: cuidará personal del programa. Los celulares se guardan. Lleva tu computadora personal con LockDown Browser probado.</p></div>
       </div>
 
       <h2>Qué entra</h2>
       <p class="prose">Notas de clase, casos del Harvard Course Pack, lecturas requeridas en Canvas y noticias. Cuando un alumno preguntó si había que leer los nueve casos de la plataforma, respondió que sí y que todos los temas ya se vieron.</p>
       ${E.table([
-        ['S1', E.link('crecimiento', 'Crecimiento'), 'Warnock y Walsh; Rodriguez', '✅ en tu carpeta'],
-        ['S2', E.link('flujos', 'Flujos'), 'Kehoe y Xu; Tabellini; Yang et al.', '✅ en tu carpeta'],
-        ['S2', E.link('flujos', 'Flujos'), 'Bernanke, Global Saving Glut', '⚠️ no está en tu carpeta'],
-        ['S3', E.link('fiscal', 'Fiscal'), 'Murphy; Roscini y Schlefer', '✅ en tu carpeta'],
-        ['S4', E.link('monetaria', 'Monetaria'), 'Misawa (BoJ)', '✅ en tu carpeta'],
-        ['S5', E.link('cambio', 'Cambio'), 'Pill (Tequila)', '✅ en tu carpeta'],
-        ['S5', E.link('cambio', 'Cambio'), 'Sachs, Tornell y Velasco', '⚠️ no está en tu carpeta'],
-        ['S6', E.link('bancos', 'Bancos'), 'Kang et al. (SVB)', '✅ en tu carpeta'],
-        ['S7', E.link('clima', 'Clima'), 'Estimating Climate Cost', '✅ integrada'],
-        ['S7', E.link('clima', 'Clima'), 'Who Killed ESG', '⚠️ sin identificar: pregúntale al profe'],
+        ['S1', E.link('crecimiento', 'Crecimiento'), 'Warnock y Walsh; Rodriguez', '✅ resumida con el texto de la lectura'],
+        ['S2', E.link('flujos', 'Flujos'), 'Kehoe y Xu; Tabellini; Yang et al.', '✅ resumida con el texto de la lectura'],
+        ['S2', E.link('flujos', 'Flujos'), 'Bernanke, Global Saving Glut', '🌐 resumida de su fuente pública'],
+        ['S3', E.link('fiscal', 'Fiscal'), 'Murphy; Roscini y Schlefer', '✅ resumida con el texto de la lectura'],
+        ['S4', E.link('monetaria', 'Monetaria'), 'Misawa (BoJ)', '✅ resumida con el texto de la lectura'],
+        ['S5', E.link('cambio', 'Cambio'), 'Pill (Tequila)', '✅ resumida con el texto de la lectura'],
+        ['S5', E.link('cambio', 'Cambio'), 'Sachs, Tornell y Velasco', '🌐 resumida de su fuente pública'],
+        ['S6', E.link('bancos', 'Bancos'), 'Kang et al. (SVB)', '✅ resumida con el texto de la lectura'],
+        ['S7', E.link('clima', 'Clima'), 'Estimating Climate Cost', '✅ resumida con el texto de la lectura'],
+        ['S7', E.link('clima', 'Clima'), 'Who Killed ESG', '⚠️ sin identificar: confírmala con el profe'],
       ], { head: ['Tema', 'Sección', 'Caso / lectura', 'Estado'] })}
-      ${E.warn('Las lecturas marcadas ⚠️ no están en tu carpeta: Bernanke y Sachs et al. van resumidas de su fuente pública, y Who Killed ESG sólo como concepto, sin confirmar cuál es. Revisa en Canvas si cuáles dicen <i>required</i>. La clase de riesgo climático con la invitada (2-nov) tampoco está grabada aquí.')}
+      ${E.warn('Who Killed ESG va sólo como concepto, porque no se confirmó cuál es la lectura. Bernanke y Sachs et al. van resumidas de su fuente pública. Revisa en Canvas si cuáles dicen <i>required</i>. La clase de riesgo climático con la invitada (2-nov) tampoco está grabada aquí.')}
 
       <h2>Tu checklist</h2>
       <div id="chk" class="card2"></div>

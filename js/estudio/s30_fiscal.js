@@ -242,7 +242,7 @@
         .sx-fis .tline em{font-style:normal;font-weight:700;color:var(--ink)}
       </style>
       <div class="sx-fis">
-      <p class="prose">Chucho, este tema tiene una tensión central: <b>el gasto público es una herramienta muy poderosa y también muy politizada</b>. Todos quieren que suba el gasto y nadie que suban los impuestos. Por eso cada crisis deja deuda, y esa deuda ya no baja sola.</p>
+      <p class="prose">Este tema tiene una tensión central: <b>el gasto público es una herramienta muy poderosa y también muy politizada</b>. Todos quieren que suba el gasto y nadie que suban los impuestos. Por eso cada crisis deja deuda, y esa deuda ya no baja sola.</p>
       ${E.table([
         ['Multiplicador', '1 / (1 − c)', '¿Cuánto produce cada peso de gasto?'],
         ['Dinámica de la deuda', 'Δd = (r − g)·d/(1 + g) − pb', '¿La deuda como % del PIB sube o baja?'],

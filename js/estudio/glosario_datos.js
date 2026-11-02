@@ -164,7 +164,7 @@
     mdd: { n: 'Millones de dólares', d: 'Abreviatura común en la prensa mexicana. Ojo: "mil mdd" son miles de millones.', t: null, x: 0 },
     pp: { n: 'Puntos porcentuales', d: 'Diferencia absoluta entre dos porcentajes: de 7% a 9% son 2 pp.', t: null, x: 0 },
     ONU: { n: 'Organización de las Naciones Unidas', d: 'Organismo internacional. Sus conferencias climáticas son las COP.', t: null, x: 0 },
-    PWT: { n: 'Penn World Table', d: 'Base de datos de PIB, capital y productividad de los países. La usaste en la actividad de crecimiento.', t: 'S1' },
+    PWT: { n: 'Penn World Table', d: 'Base de datos de PIB, capital y productividad de los países. Se usa en la actividad de crecimiento del curso.', t: 'S1' },
     MIT: { n: 'Massachusetts Institute of Technology', d: 'Universidad de EUA donde trabajó Robert Solow.', t: null, x: 0 },
     CDMX: { n: 'Ciudad de México', d: 'La capital de México.', t: null, x: 0 },
     PNAS: { n: 'Proceedings of the National Academy of Sciences', d: 'Revista científica de EUA.', t: null, x: 0 },

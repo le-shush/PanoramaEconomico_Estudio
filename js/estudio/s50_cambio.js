@@ -459,7 +459,7 @@
       ` })}
 
       ${E.concept({ id: 'stv', title: 'Sachs, Tornell y Velasco (1996): The Collapse of the Mexican Peso', badge: 'star', html: `
-        ${E.note('No está en tu carpeta. Resumen propio del artículo publicado en <i>Economic Policy</i> 11(22), 13–63 (versión previa: NBER WP 5142, 1995), leído de la copia en el sitio de Jeffrey Sachs.', 'Fuente pública')}
+        ${E.note('Resumen propio del artículo publicado en <i>Economic Policy</i> 11(22), 13–63 (versión previa: NBER WP 5142, 1995), leído de la copia en el sitio de Jeffrey Sachs.', 'Fuente pública')}
         <div class="cols"><div>
           <p><b>Tesis:</b> los fundamentos no alcanzan a explicar la magnitud de la crisis. No fue irresponsabilidad fiscal. Fue la suma de choques inesperados, mala respuesta, mayor vulnerabilidad y, al final, pánico.</p>
           ${E.table([
@@ -486,8 +486,8 @@
         ], { head: ['Quién', 'Qué dice', 'Lectura'] })}
       ` })}
 
-      ${E.concept({ id: 'equipo', title: 'Tu trabajo de equipo, revisado', html: `
-        <p>Lo revisé contra el caso, las láminas y la clase. <b>Bien resuelto, y reutilízalo:</b> la tabla de la identidad (cuadra cada año), la conclusión de déficit privado, la definición de ε, el cálculo de indiferencia a 3 meses (2.2%) y la definición de tesobono como deuda indexada al dólar y pagada en pesos.</p>
+      ${E.concept({ id: 'equipo', title: 'Errores frecuentes al responder el caso', html: `
+        <p>Contrastados con el caso, las láminas y la clase. <b>Lo que conviene incluir:</b> la tabla de la identidad (cuadra cada año), la conclusión de déficit privado, la definición de ε, el cálculo de indiferencia a 3 meses (2.2%) y la definición de tesobono como deuda indexada al dólar y pagada en pesos.</p>
         ${E.table([
           ['"Las reservas se gastaron para pagar los tesobonos" tras subir 43% el tipo', 'Causalidad al revés. Casi toda la caída ocurrió <b>antes</b> de la devaluación, por salida de capital y esterilización. Devaluar sube el costo en pesos, no en dólares'],
           ['Tesobonos "de 7 mil a 210 mil millones de pesos en 5 años"', 'El Exh. 16 abarca ene-94 a mar-95: son meses, no años. Y medir en pesos infla el dato por la devaluación. Usa dólares: 1.2 → 17.8'],
@@ -499,7 +499,7 @@
           ['Fobaproa: el daño vino de autopréstamos y bancos imprudentes', 'El profe lo llama marginal: lo que quebró a los deudores fue pagar 80%. Es buen matiz, no la causa principal'],
           ['"Más de 70% de los activos bancarios son extranjeros" (Haber, 2005)', 'Dato viejo. Hoy: ≈58% del crédito y ≈60% de los depósitos (clase 28-oct); ≈2/3 de los activos (lámina)'],
           ['Cierre sobre narcotráfico, Morena e IA', 'Interesante, pero es opinión. En el examen quita palabras a las herramientas. El profe descartó el narco como causa principal del bajo crecimiento'],
-        ], { head: ['Lo que escribieron', 'Ajuste'] })}
+        ], { head: ['Respuesta común', 'Ajuste'] })}
       ` })}
 
       <h2>6. La lección para hoy: México 2026</h2>
