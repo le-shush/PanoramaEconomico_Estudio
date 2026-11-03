@@ -459,7 +459,7 @@
       ` })}
 
       ${E.concept({ id: 'stv', title: 'Sachs, Tornell y Velasco (1996): The Collapse of the Mexican Peso', badge: 'star', html: `
-        ${E.note('Resumen propio del artículo publicado en <i>Economic Policy</i> 11(22), 13–63 (versión previa: NBER WP 5142, 1995), leído de la copia en el sitio de Jeffrey Sachs.', 'Fuente pública')}
+        ${E.note('Resumen propio del artículo publicado en <i>Economic Policy</i> 11(22), 13–63 (versión previa: NBER WP 5142, 1995), disponible en PDF en Canvas.', 'Fuente')}
         <div class="cols"><div>
           <p><b>Tesis:</b> los fundamentos no alcanzan a explicar la magnitud de la crisis. No fue irresponsabilidad fiscal. Fue la suma de choques inesperados, mala respuesta, mayor vulnerabilidad y, al final, pánico.</p>
           ${E.table([
@@ -523,9 +523,9 @@
       <h2>7. Quiz rápido</h2>
       <div id="cam-quiz"></div>
 
-      <h2>8. Noticias de hoy</h2>
+      <h2>8. Noticias recientes, para contexto</h2>
       <div class="g2" id="cam-news"></div>
-      <p class="small muted">Más ensayos y otros temas en ${E.link('noticias', 'Noticias de hoy')}. La siguiente decisión de Banxico está programada para el 5 de noviembre, un día después del examen.</p>
+      <p class="small muted">Más ensayos y otros temas en ${E.link('noticias', 'Noticias')}. La siguiente decisión de Banxico está programada para el 5 de noviembre, un día después del examen.</p>
       </div>`;
 
       labTrilema(root);

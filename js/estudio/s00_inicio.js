@@ -38,7 +38,9 @@
     ['cambio', '💱', 'S5 · Tipo de cambio', '★ Trilema, ataques especulativos, Tequila 94–95.'],
     ['bancos', '🏧', 'S6 · Bancos y corridas', 'Transformación de plazos, corridas, SVB.'],
     ['clima', '🌡️', 'S7 · Riesgo climático', 'Físico vs transición, costo del carbono, ISSB.'],
-    ['noticias', '📰', 'Noticias de hoy', 'Lo reciente por tema, leído con la herramienta del curso.'],
+    ['noticias', '📰', 'Noticias', 'Las que dejó el profe en Canvas, leídas con la herramienta del curso.'],
+    ['intuicion', '🧭', 'Reglas de dedo', 'La idea de cada fórmula y qué se mueve con qué, sin memorizar.'],
+    ['contexto', '🗺️', 'Puntos clave', 'El panorama económico actual y qué retener de cada documento.'],
     ['simulacro', '⏱️', 'Simulacro', '15 + 3 + 2 con cronómetro y sin poder regresar, como el real.'],
     ['repaso', '🖨️', 'Hoja de repaso', 'Conceptos en una línea para memorizar antes de entrar.'],
     ['glosario', '🔤', 'Glosario', 'Qué significa cada sigla y cada letra de las fórmulas, con buscador.'],
@@ -82,7 +84,7 @@
       <div class="tblwrap">${E.table([
         ['<b>Lunes 2 · noche</b>', 'Tips del profe y primera pasada por S1–S3', '2–3 h', 'Cuenta en voz alta cada narrativa. Si no puedes contarla como historia causal, regrésate.'],
         ['<b>Martes 3 · mañana</b>', 'S4 y S5 (★), con sus laboratorios', '2–3 h', 'Fisher, paridades, trilema y Tequila son la columna de los ensayos de noticias.'],
-        ['<b>Martes 3 · tarde</b>', 'S6, S7 (agrega tus apuntes de la invitada) y noticias', '2 h', 'Elige 2 noticias por tema y di qué herramienta usarías con cada una.'],
+        ['<b>Martes 3 · tarde</b>', 'S6, S7 y las noticias de Canvas', '2 h', 'El profe prefiere las noticias que dejó en Canvas: elige 2 por tema y di qué herramienta usarías con cada una.'],
         ['<b>Martes 3 · noche</b>', 'Simulacro completo con cronómetro', '2 h', 'Practica escribir 350 palabras en 12–15 minutos.'],
         ['<b>Miércoles 4</b>', 'Hoja de repaso; revisar LockDown Browser', '1 h', 'Prueba LockDown en tu computadora personal, no en la del trabajo.'],
       ], { head: ['Cuándo', 'Qué', 'Tiempo', 'Cómo'] })}</div>

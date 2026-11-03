@@ -423,7 +423,7 @@
       <h2>5. Quiz rápido</h2>
       <div id="fxQ"></div>
 
-      <h2>6. Noticias de hoy</h2>
+      <h2>6. Noticias recientes, para contexto</h2>
       <p class="prose">Verificadas al 2 de noviembre de 2026. Léelas con la herramienta, no con opinión. Las verás de nuevo en ${E.link('noticias', 'Noticias')}.</p>
       <div class="g2">${NEWS.map((n) => `<div class="card2 news-card"><h4>${n.title}</h4><div class="meta">${n.date} · ${n.source} · <a href="${n.url}" target="_blank" rel="noopener">fuente</a></div><p class="small"><b>Herramienta:</b> ${n.tool}</p><p class="small">${n.read}</p></div>`).join('')}</div>
       </div>`;

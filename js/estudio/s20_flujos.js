@@ -293,7 +293,7 @@
         <p class="prose"><b>Evidencia clave:</b> en México entran y salen pocas relaciones de exportación; en China hay mucha rotación, señal de que sigue subiendo. La mayor apertura mexicana viene de vender <b>más de lo mismo</b> (margen intensivo), no de productos nuevos (margen extensivo). <b>Lección:</b> la apertura no es ni necesaria ni suficiente en cada momento del desarrollo; importa el contexto.</p>` })}
 
       ${E.concept({ id: 'c-bern', title: 'Bernanke (2005): The Global Saving Glut and the U.S. Current Account Deficit', badge: 'star', html: `
-        ${E.note('<b>Este discurso no estuvo disponible con las demás lecturas.</b> Resumen de la fuente pública, el <a href="https://www.federalreserve.gov/boarddocs/speeches/2005/200503102/" target="_blank" rel="noopener">texto en la Fed</a> (10 de marzo de 2005, Virginia Association of Economists), y de las láminas 41–56 y lo dicho en clase.', 'Fuente')}
+        ${E.note('Resumen del discurso que enlaza Canvas, el <a href="https://www.federalreserve.gov/boarddocs/speeches/2005/200503102/" target="_blank" rel="noopener">texto en la Fed</a> (10 de marzo de 2005, Virginia Association of Economists), y de las láminas 41–56 y lo dicho en clase.', 'Fuente')}
         ${E.fig(figBern, 'El argumento en una imagen. La tesis: buena parte del déficit se origina fuera de EUA.', true)}
         <p class="prose"><b>Personaje y decisión:</b> Bernanke, entonces gobernador de la Fed, se pregunta por qué EUA, el país más rico, recibe prestado medio mundo. Rechaza la explicación comercial: la balanza es, en su imagen, <q>the tail of the dog</q> (la cola del perro), resultado pasivo de ingresos, precios de activos, tasas y tipo de cambio.</p>
         <h4>Las preguntas de la lámina 40, respondidas</h4>
@@ -343,7 +343,7 @@
       <h2 id="qz">✅ Quiz rápido</h2>
       <div id="qq"></div>
 
-      <h2 id="news">📰 Noticias de hoy</h2>
+      <h2 id="news">📰 Noticias recientes, para contexto</h2>
       <p class="prose">Verificadas al 2 de noviembre de 2026. <b>Ojo con el calendario:</b> las elecciones de EUA son el 3 de noviembre, y el 4 de noviembre, día de tu examen, sale el dato de comercio de septiembre de EUA. Si sale antes de tu examen, léelo con la misma plantilla.</p>
       <div id="nn" class="g2"></div>
       `;

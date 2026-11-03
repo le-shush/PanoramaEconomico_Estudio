@@ -449,7 +449,7 @@ Concluyo que la independencia se mide en los hechos: por ahora la Fed la está d
       <h2>5. Quiz rápido</h2>
       <div id="qzM"></div>
 
-      <h2 id="mon-noticias">6. Noticias de hoy</h2>
+      <h2 id="mon-noticias">6. Noticias recientes, para contexto</h2>
       ${E.warn('Ojo con copiar el ejemplo del profe tal cual. Lo planteó con inflación a la baja, y el dato más reciente de EUA es al alza (3.7% en septiembre, por energía). Si la pregunta te da inflación a la baja, usa su cadena. Si te da inflación al alza, di que la tasa real <b>se comprime</b> y por eso se habla de otra alza. La conclusión para emergentes es la misma: menos margen.')}
       <div class="sx-m40-news" id="nwM"></div>
       <p class="small muted">Próximos datos: Banxico, según una fuente que no pude confirmar en el calendario oficial, el 5-nov, después de tu examen; CPI de EUA 10-nov; Fed 9-dic.</p>

@@ -229,7 +229,7 @@
         <div class="cols"><div>
           ${E.fig(illSolow, 'El diagrama de Solow. Punto clave: en k* la inversión apenas repone lo que se pierde.')}
           ${E.formula('Estado estacionario', 's·y*', '(δ + n + g)·k*', 'k por trabajador efectivo deja de crecer')}
-          ${E.formula('Solución (forma del caso)', 'y*', 'A · (s / (δ+n+g))<sup>α/(1−α)</sup>')}
+          ${E.formula('Solución (forma del caso)', 'y*', 'A · (s / (δ+n+g))<sup>α/(1−α)</sup>', 'Vale cuando A aumenta el trabajo: Y = K<sup>α</sup>(AL)<sup>1−α</sup>. Si partes de y = A·k<sup>α</sup>, A queda elevada a 1/(1−α). La dirección es la misma.')}
           <p class="small muted">Con α = 1/3 el exponente es 1/2: duplicar s sube y* ≈ 41 %, una sola vez.</p>
         </div><div>
           <p><b>Las tres conclusiones que debes poder decir:</b></p>
@@ -439,8 +439,8 @@
       <h2>4 · Quiz rápido</h2>
       <div id="qz1"></div>
 
-      <h2>5 · Noticias de hoy</h2>
-      <p class="prose">Hechos verificados al 2-nov-2026. Más ensayos en ${E.link('noticias', 'Noticias de hoy')} y en el ${E.link('simulacro', 'simulacro')}.</p>
+      <h2>5 · Noticias recientes, para contexto</h2>
+      <p class="prose">Hechos verificados al 2-nov-2026. Más ensayos en ${E.link('noticias', 'Noticias')} y en el ${E.link('simulacro', 'simulacro')}.</p>
       <div class="g2" id="nw1"></div>
       </div>`;
 

@@ -36,7 +36,7 @@
       q.push({ kind: 'mcq', topic: b.topic, q: b.q, o: order.map((i) => b.o[i]), a: order.indexOf(b.a), w: b.w, ans: null });
     });
     sample(E.essays.filter((e) => e.type === 'caso'), m.caso).forEach((e) => q.push({ kind: 'caso', e, topic: e.topic, text: '' }));
-    sample(E.essays.filter((e) => e.type === 'noticia'), m.noticia).forEach((e) => q.push({ kind: 'noticia', e, topic: e.topic, text: '' }));
+    sample(E.essays.filter((e) => e.type === 'noticia' && e.canvas), m.noticia).forEach((e) => q.push({ kind: 'noticia', e, topic: e.topic, text: '' }));
     run = { mode, q, i: 0, end: Date.now() + m.min * 60000, started: Date.now(), done: false };
   };
 

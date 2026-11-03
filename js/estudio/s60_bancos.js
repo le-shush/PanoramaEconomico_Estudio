@@ -470,7 +470,7 @@
           ['Depósitos no asegurados', '93.8%', '47.5%', '45.1%', 'Aquí está el problema'],
         ], { head: ['2022', 'SVB', 'Citizens', 'PNC', 'Lectura'] })}
         ${E.key('<b>La frase para el ensayo:</b> SVB cambió riesgo de crédito por riesgo de tasa, y lo financió con los depósitos más nerviosos del país. Ni uno solo de esos elementos lo mata: lo mata la combinación de pérdida ≈ capital + fondeo sin seguro + clientes conectados.')}
-        ${E.note('El caso no incluye preguntas de discusión. Abajo están las preguntas guía que el profe fue haciendo en clase más el apartado "The Blame Game" del caso. En su ejemplo de examen pidió explicar por qué SVB tenía tantos bonos: quiere que lo convenzas de que leíste este caso.', 'Sobre las preguntas')}
+        ${E.note('Canvas trae las preguntas oficiales del caso: están con su esquema de respuesta en ' + E.link('contexto', 'Puntos clave') + '. Abajo están las preguntas guía que el profe fue haciendo en clase más el apartado "The Blame Game" del caso. En su ejemplo de examen pidió explicar por qué SVB tenía tantos bonos: quiere que lo convenzas de que leíste este caso.', 'Sobre las preguntas')}
         ${E.reveal('¿Por qué crecieron tanto los depósitos?', '<p>Tasas bajas → todos buscan retorno → capital de riesgo récord (US$345 mil M en 2021) → las startups depositan en SVB, en parte porque era la norma. De US$62 mil M en 2019 a US$189 mil M en 2021. Eran depósitos de paso: la startup los iba a gastar en unos 18 meses.</p>')}
         ${E.reveal('¿Por qué bonos y por qué largos?', '<p>No había crédito suficiente que colocar. <b>Bonos:</b> sin riesgo de crédito, con poco o nulo requerimiento de capital (más ROE) y líquidos para cuando las startups retiraran. <b>Largos:</b> corto plazo pagaba 0.25%; alargar daba ≈1.5–1.8%. Más rendimiento a cambio de duración.</p>')}
         ${E.reveal('¿Qué papel juega HTM contra AFS?', '<p>Pasar a HTM (de 14 a 91 mil M) evitó que la pérdida tocara el capital reportado, dejándola en nota al pie, y al mismo tiempo impidió cubrirla. Mientras no tuviera que vender, no pasaba nada. Las salidas de depósitos invalidaron ese supuesto.</p>')}
@@ -490,7 +490,7 @@
       <h2>5 · Quiz rápido</h2>
       <div id="bk-quiz"></div>
 
-      <h2>6 · Noticias de hoy</h2>
+      <h2>6 · Noticias recientes, para contexto</h2>
       <div class="g2" id="bk-news"></div>
       `;
 
