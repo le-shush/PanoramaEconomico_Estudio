@@ -267,6 +267,7 @@
           </div>
         </div><div>
           <div class="chart h360" id="cDiag"></div>
+          <p class="small muted">Si k* se sale de la vista, los dos ejes cambian de escala juntos. Así, la pendiente en pantalla sólo cambia cuando mueves δ, n o g.</p>
         </div></div>
         <div id="tSol" style="margin-top:12px"></div>
         <div class="g2">
@@ -508,7 +509,9 @@
 
       cD = E.chart(root.querySelector('#cDiag'), (T) => {
         const p = P(st), q = shocked(p), b = SS(p), nw = SS(q);
-        const xm = Math.max(b.k, nw.k, p.k0) * 1.35, N = 120;
+        // Los ejes cambian juntos (y máx = 0.3 · k máx), para que la pendiente en pantalla sólo cambie si cambia de verdad. El mínimo hace que y(k) siempre quepa.
+        const RATIO = 0.3, need = Math.max(Math.max(b.k, nw.k, p.k0) * 1.2, Math.max(p.A, q.A) / Math.pow(RATIO, 1 / (1 - p.a)));
+        const mag = Math.pow(10, Math.floor(Math.log10(need))), xm = [1, 1.5, 2, 3, 4, 6, 8, 10].find((m) => m * mag >= need - 1e-9) * mag, ym = xm * RATIO, N = 120;
         const pts = (fn) => Array.from({ length: N + 1 }, (_, i) => { const k = (xm * i) / N; return [k, fn(k)]; });
         const yF = (r) => (k) => Math.pow(k, r.a) * Math.pow(r.A, 1 - r.a);
         const d = p.d + p.n + p.g;
@@ -527,8 +530,8 @@
         ser.push({ name: 'Puntos', type: 'scatter', symbolSize: 11, data: marks, z: 5, tooltip: { show: false } });
         return { ...E.baseOpt(T), legend: { ...E.baseOpt(T).legend, data: ser.filter((s) => s.name !== 'Puntos').map((s) => s.name) }, grid: { left: 8, right: 16, top: 34, bottom: 26, containLabel: true },
           tooltip: { ...E.baseOpt(T).tooltip, axisPointer: { type: 'line', lineStyle: { color: T.axis } }, valueFormatter: (v) => F.n(v, 2) },
-          xAxis: E.axisVal(T, (v) => F.n(v, xm < 10 ? 1 : 0), { name: 'k', nameLocation: 'end', nameTextStyle: { color: T.muted }, max: xm, min: 0, splitLine: { show: false }, axisLine: { show: true, lineStyle: { color: T.axis } } }),
-          yAxis: E.axisVal(T, (v) => F.n(v, 1)), series: ser };
+          xAxis: E.axisVal(T, (v) => F.n(v, xm < 10 ? 1 : 0), { name: 'k', nameLocation: 'end', nameTextStyle: { color: T.muted }, max: xm, min: 0, interval: xm / 5, splitLine: { show: false }, axisLine: { show: true, lineStyle: { color: T.axis } } }),
+          yAxis: E.axisVal(T, (v) => F.n(v, 1), { min: 0, max: ym, interval: ym / 5 }), series: ser };
       });
 
       const years = Array.from({ length: T_MAX + 1 }, (_, i) => i);
